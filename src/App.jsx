@@ -37,14 +37,15 @@ const App = () => {
         {founders.map((founder) => (
           <FounderListItem
             key={founder.id}
+            founder={founder}
             name={founder.name}
             title={founder.title}
+            credential={founder.credential}
           />
         ))}
       </ul>
     </>
   );
-};
+}
 
 export default App;
-
