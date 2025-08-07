@@ -1,12 +1,15 @@
+// src/components/FounderListItem/FounderListItem.jsx
 
-const FounderListItem = (props) => {
-  const { founder } = props
+// src/components/FounderListItem/FounderListItem.jsx
+
+const FounderListItem = ({ name, title, credential }) => {
   return (
     <li>
-      <h3>Hello, I'm {founder.name} the {founder.title}!</h3>
-      <p>{founder.credential}</p>
+      <h3>Hello, I'm {name} the {title}!</h3>
+      <p>{credential}</p>
     </li>
   );
 };
+
 
 export default FounderListItem;

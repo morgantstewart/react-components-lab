@@ -33,15 +33,9 @@ const App = () => {
         <p>If you can't explain it to a fifth-grader, our product does it.</p>
       </main>
       <h2>Our Founders</h2>
-      <ul>
+       <ul>
         {founders.map((founder) => (
-          <FounderListItem
-            key={founder.id}
-            founder={founder}
-            name={founder.name}
-            title={founder.title}
-            credential={founder.credential}
-          />
+          <FounderListItem key={founder.id} {...founder} />
         ))}
       </ul>
     </>
