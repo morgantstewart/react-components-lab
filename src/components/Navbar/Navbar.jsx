@@ -13,6 +13,5 @@ const Navbar = () => {
 };
 
 
-// src/components/Navbar/Navbar.jsx
 
 export default Navbar;
