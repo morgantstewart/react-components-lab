@@ -1,3 +1,5 @@
+import './WeatherForecast.css';
+
 <div className="weather">
   <h2>Day of the Week</h2>
   <img src="" alt="" />
