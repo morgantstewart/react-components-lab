@@ -11,4 +11,5 @@ const WeatherForecast = ({ day, img, imgAlt, conditions, time }) => {
   );
 };
 
+
 export default WeatherForecast;
